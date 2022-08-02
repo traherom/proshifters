@@ -6,10 +6,20 @@
         <RootNamespace>proshifters_boring</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+
+
+        <PreserveCompilationContext>false</PreserveCompilationContext>
+        <Copyright>Ryan Morehart</Copyright>
+        <PackageProjectUrl>https://www.xylok.io</PackageProjectUrl>
+
+        <PublishSingleFile>true</PublishSingleFile>
+        <!--      <SelfContained>true</SelfContained>-->
+        <!--      <RuntimeIdentifier>linux-x64</RuntimeIdentifier>-->
+<!--        <PublisruhReadyToRun>true</PublisruhReadyToRun>-->
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Open-XML-SDK" Version="2.9.1" />
+        <PackageReference Include="Open-XML-SDK" Version="2.9.1"/>
     </ItemGroup>
 
 </Project>
